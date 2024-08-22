@@ -1,0 +1,15 @@
+.nav_More {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.more_notification,
+.more_customer,
+.more_advt,
+.more_download {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

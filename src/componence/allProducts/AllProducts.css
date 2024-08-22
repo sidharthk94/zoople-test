@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  .grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .imagess {
+    width: 100px;
+    height: 100px;
+    height: auto;
+    object-fit: cover; 
+  }
+  .spin{
+    margin-top: 200px;
+    margin-left: 500px;
+  }
+  .pag_button{
+    height: 20px;
+    width: 50px;
+    font-size: 13px;
+    color: white;
+    background-color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pagination_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+  }
+  .pag_button:disabled{
+    cursor: not-allowed;
+  }

@@ -1,0 +1,18 @@
+.catagoriey{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.catagory_item{
+    height: 70px;
+    width: 70px;
+}
+
+.catagoriey_image{
+    height: 60px;
+    width: 60px;
+}

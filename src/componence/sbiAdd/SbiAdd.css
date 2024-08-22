@@ -1,0 +1,11 @@
+.sbi_main{
+    margin: 10px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbi_banner{
+    height: 80px; 
+}
